@@ -1,13 +1,13 @@
 Теория из того что используется в этом Репозитории.
         Технологический стек и архитектура проекта:
-                1. React 18 + Create React App (CRA),
-                2. React Router v6,
-                3. React Context API + Custom Hooks,
-                4. Управление состоянием (State Management),
-                    4.1 Мемоизация: useMemo, useCallback,
-                    4.2 Локальное состояние: useState,
-                5. Оптимизация производительности,
-                    5.1 React.memo для предотвращения лишних рендеров,
+1. React 18 + Create React App (CRA),
+2. React Router v6,
+3. React Context API + Custom Hooks,
+4. Управление состоянием (State Management),
+4.1 Мемоизация: useMemo, useCallback,
+4.2 Локальное состояние: useState,
+5. Оптимизация производительности,
+5.1 React.memo для предотвращения лишних рендеров,
 
     Promise - это объекты в JS предназначенные для отложенных и асинхронных вычеслений.
 При создании промиса используется оператор создания объектов new и функция конструктор Promise
