@@ -1,0 +1,113 @@
+.users-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.users-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.btn-logout {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn-logout:hover {
+    background: #357abd;
+}
+
+.users-main {
+    min-height: 70vh;
+}
+
+.users-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.users-list-container {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-user-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.create-user-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.create-user-btn:hover {
+    background: #357abd;
+}
+
+.users-message {
+    text-align: center;
+    color: #666;
+}
+
+.users-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #4a90e2;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 15px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.info-message {
+    color: #666;
+    font-size: 16px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .users-page {
+        padding: 15px;
+    }
+    
+    .users-header {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+    
+    .users-list-container,
+    .users-loading {
+        padding: 15px;
+    }
+    
+    .create-user-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

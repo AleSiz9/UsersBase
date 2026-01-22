@@ -1,0 +1,17 @@
+.btn{
+    background: #4a90e2;
+    cursor: pointer;
+}
+
+.btn-secondary,
+.btn-primary {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
